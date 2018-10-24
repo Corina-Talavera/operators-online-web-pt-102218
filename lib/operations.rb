@@ -1,16 +1,16 @@
 def unsafe?(speed)
-  puts safe=gets.chomp
+  puts speed=gets.chomp
   if speed < 40
-    puts unsafe
+    puts "unsafe"
   if speed > 60
-    puts unsafe
+    puts "unsafe"
   else speed == safe 
 end
 
 
 
 def not_safe?(speed)
-	puts speed < 40 ? unsafe : 
+	puts speed < 40 ? "unsafe" : "safe"
 end
 	
 
